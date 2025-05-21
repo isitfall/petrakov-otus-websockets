@@ -1,0 +1,31 @@
+{
+  "name": "petrakov-otus-websockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isitfall/petrakov-otus-websockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isitfall/petrakov-otus-websockets/issues"
+  },
+  "homepage": "https://github.com/isitfall/petrakov-otus-websockets#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/ws": "^8.18.1",
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "ws": "8.18.2"
+  }
+}
